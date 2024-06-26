@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover the World - Your Ultimate Adventure Awaits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Discover the World</h1>
+        <p>Explore the beauty and adventure of the world..</p>
+    </header>
+    <section class="hero">
+        <div class="hero-image">
+            <img src="travel1.jpg" alt="Destination Image">
+        </div>
+        <div class="hero-content">
+            <h2>Plan Your Next Adventure in this world</h2>
+            <p>Book now and experience breathtaking landscapes, rich culture, and unforgettable memories.</p>
+            <a href="#booking-form" class="btn btn-primary">Book Your Adventure</a>
+        </div>
+    </section>
+    <section class="highlights">
+        <div class="benefits">
+            <h3>Why Choose Travelling?</h3>
+            <ul>
+                <li>Stunning natural beauty</li>
+                <li>Unique cultural experiences</li>
+                <li>Exciting outdoor activities</li>
+                <li>Delicious local cuisines</li>
+            </ul>
+        </div>
+        <div class="gallery">
+            
+            <img src="nature.jpg" alt="Gallery Image">
+            <img src="hotel.jpg" alt="Gallery Image">
+            <img src="food.jpg" alt="Gallery Image">
+        </div>
+    </section>
+    <section id="booking-form" class="booking">
+        <h3>Start Your Journey Today</h3>
+        <p>Fill out the form below to receive personalized travel recommendations:</p>
+        <form action="submit-form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Get Recommendations</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Travel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
